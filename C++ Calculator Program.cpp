@@ -48,7 +48,7 @@ int Division (int sum);
 //Post: Will display the solution to the math problems.
 void DisplayResult (int sum);
 
-main (){
+int main () {
 
     int sum;                //local variable
     int numVal;             //local variable

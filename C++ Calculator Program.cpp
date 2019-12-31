@@ -2,10 +2,10 @@
 // Program: C++ Calculator Program. This program will begin with simple arithmetic
 //          functions (add, sub, multi, div) and then will modify future functions
 //          to solve algebra, geometry , etc.
-//Date: 10 Dec 2019
+//Date: Started 10 Dec 2019 - TBD
 
 #include <iostream>     //library for cout
-#include <math.h>       //library for math functions
+#include <cmath>        //library for math functions
 #include <string>       //library for string functions
 #include <limits>      //library for setting error checking
 
@@ -129,12 +129,14 @@ int Addition (int sum){
      do {
 
         cin >> numVal;
-       sum = sum + numVal;
+        sum = sum + numVal;
 
      } while (numVal != -0);
 
     // Function call to display the results of the integers
     DisplayResult (sum);
+
+    return numVal;
 }
 
 int Subtraction (int sum) {
